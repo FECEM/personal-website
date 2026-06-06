@@ -10,13 +10,9 @@ Sitio web profesional de Fernando Escalante, Ingeniero de Software y Consultor T
 
 | Versión | Descripción |
 |---------|-------------|
-| `website/` | Tema dark principal (publicado en GitHub Pages) |
-| `website-v2/` | Variante con sidebar |
-| `website-theme-fresh/` | Tema claro (teal/amber) |
-| `website-theme-blue/` | Tema azul profesional |
-| `website-theme-violet/` | Tema violeta/amber |
+| `website/` | Tema dark principal (publicado en GitHub Pages)
 
 ## Contacto
 
 - Correo: lcs.fernando.escalante@gmail.com
-- LinkedIn: [Pendiente]
+- LinkedIn: https://www.linkedin.com/in/fecem02
