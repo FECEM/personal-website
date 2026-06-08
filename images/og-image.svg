@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#12121a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.03"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="260" cy="315" r="95"/>
+    </clipPath>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#06b6d4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <rect x="0" y="0" width="6" height="630" fill="url(#accentGrad)"/>
+
+  <circle cx="260" cy="315" r="102" fill="#06b6d4" fill-opacity="0.15" filter="url(#shadow)"/>
+  <circle cx="260" cy="315" r="98" fill="#12121a"/>
+  <image href="foto-profile.jpg" x="165" y="220" width="190" height="190" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice"/>
+
+  <text x="390" y="270" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700" fill="#f1f5f9" letter-spacing="-0.5">
+    Fernando Escalante
+  </text>
+
+  <text x="390" y="320" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#94a3b8">
+    Consultor en Integración de Sistemas
+  </text>
+  <text x="390" y="352" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="400" fill="#94a3b8">
+    y Desarrollo de Plataformas Empresariales
+  </text>
+
+  <rect x="390" y="380" width="60" height="3" rx="1.5" fill="#06b6d4"/>
+
+  <text x="390" y="420" font-family="Fira Code, monospace" font-size="18" font-weight="500" fill="#06b6d4">
+    fecemconsultoria.com
+  </text>
+
+  <g opacity="0.4">
+    <circle cx="1100" cy="100" r="120" fill="#06b6d4" fill-opacity="0.04"/>
+    <circle cx="1150" cy="500" r="80" fill="#10b981" fill-opacity="0.04"/>
+    <circle cx="80" cy="550" r="60" fill="#06b6d4" fill-opacity="0.03"/>
+  </g>
+</svg>
